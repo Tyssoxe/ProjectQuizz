@@ -1,0 +1,25 @@
+.image1{
+    height: 400px;
+    width: 500px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+}
+
+body{
+    background-image:url(https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-league-display-2017/fr_FR/cb24025fade09e3f965776440dffcc65024d3266/assets/img/content/splash/content-original-championillustrations-group-slashes.jpg);
+    margin:0;
+}
+
+
+.Bleu{
+    color: blue;
+}
+.image2{
+    height: 400px;
+    width: 750px;
+}   

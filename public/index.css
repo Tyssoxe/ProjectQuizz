@@ -1,14 +1,93 @@
-#img {
-  display: block;
-  margin: auto;
-  height: 128px;
-  width: 128px;
-  padding: 2rem;
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
 }
 
-#canvas {
-  display: block;
-  margin: 2rem auto;
-  width: 540px;
-  height: 540px;
+body{
+  background-image:url(https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-league-display-2017/fr_FR/cb24025fade09e3f965776440dffcc65024d3266/assets/img/content/splash/content-original-championillustrations-group-slashes.jpg);
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
+
+.container {
+  width: 800px;
+  max-width: 80%;
+  background-color: black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn {
+  border: 1px solid black;
+  background-color: blue ;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+  font-family: Gotham Rounded;
+}
+
+.btn:hover {
+  border-color: black;
+}
+
+.btn.correct {
+  background-color: seagreen;
+}
+
+.btn.wrong {
+  background-color: red;
+}
+
+.start-btn, .next-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-family: Gotham Rounded;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+#Retour{
+  display: flex;
+  justify-content: center;
+}
+
+.ad,#ip{
+  border: 1px solid black;
+  background-color: blue ;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  width: 200px;  
+  font-size :30px ; 
+  font-family: Gotham Rounded;
+  display: flex;
+  justify-content: center;
+}
+
+#ab{ display: flex;
+  justify-content: center;}
+
